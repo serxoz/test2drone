@@ -1,0 +1,15 @@
+pipeline:
+    run:
+        image: node:8
+        commands:
+            - npm install
+            - npm start
+
+    build:
+        image: node:8
+        commands:
+            - npm install
+            - npm run test
+
+
+           

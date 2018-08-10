@@ -1,0 +1,22 @@
+{
+  "name": "test2drone",
+  "version": "1.0.0",
+  "description": "Simple NodeJS Hello World app to try drone-ci.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serxoz/test2drone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/serxoz/test2drone/issues"
+  },
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/serxoz/test2drone#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
